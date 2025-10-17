@@ -3,7 +3,6 @@
 //Responds "About Us Page" for /about.
 //Responds "404 Not Found" for all other routes
 
-const fs = require("fs")
 const http = require("http")
 const myServer = http.createServer((req, res) => {
     const urlName = req.url; //const urlName = req.url.toLowerCase(); // makes routes case-insensitive
